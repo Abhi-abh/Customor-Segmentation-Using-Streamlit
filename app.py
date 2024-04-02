@@ -21,11 +21,11 @@ def predict(input_data):
     elif prediction==1:
         return "Customers with high annual income but high annual spend"
     elif prediction==2:
-       return "Customers with low annual income and high annual spend"
+       return "Customers with high annual income and low annual spend"
     elif result[0]==3:
         return "Customers low annual income and low annual spend"
     elif result[0]==4:
-        return "Customers with high annual income but low annual spend"
+        return "Customers with low annual income but high annual spend"
 
 def main():
         ## adding some information about the app's functioning to the sidebar
